@@ -5,14 +5,14 @@
 
 .CardsContainer{
     display: inline-block;
-    margin: 1px 20px;
+    margin: 1px 12px;
     
 }
 
 .Cards{
     border: none;
     height: 300px;
-    width: 550px;
+    width: 570px;
     background-color: black;
     font-size: 20px;
     color: #fff;
@@ -20,14 +20,23 @@
     padding-left: 20px;
 }
 
+.MovieTitle{
+    margin-bottom: 5px;
+}
+
 .MovieYear{
  position: relative;
- top: -60px;
+ top: -35px;
  left: 234px;
 }
 
 .MovieGenre{
 margin-left: -60px;
-margin: 100px 1px;
-color: bisque;
+margin-block-start:1px;
+
+}
+
+.MovieInfo{
+    font-size: 18px;
+    
 }
