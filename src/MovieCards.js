@@ -1,17 +1,21 @@
-export default function Greeting(){
+export default function TitleName(){
         return(
             <div>
-            <h1>Hello Friends</h1>
+            <h1 className="heading">Movie Cards</h1>
             </div>
         );
     }
 
 
-export function GreetingInfo(props){
-        const {name , city } = props;
+export function MovieCard(inputinfo){
+        const {title , year, Genre , movieinfo } = inputinfo;
         return(
-            <div>
-            <h1>I am {name} from {city}.</h1>
+            <div className="CardsContainer">
+            <div className="Cards">
+                <h1>{title}</h1>
+                <span className="MovieYear">{year}</span>
+                <span className="MovieGenre">{Genre}</span>
+            </div>
             </div>
         );
     }

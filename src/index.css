@@ -1,0 +1,33 @@
+.heading{
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+}
+
+.CardsContainer{
+    display: inline-block;
+    margin: 1px 20px;
+    
+}
+
+.Cards{
+    border: none;
+    height: 300px;
+    width: 550px;
+    background-color: black;
+    font-size: 20px;
+    color: #fff;
+    padding: 0.5px;
+    padding-left: 20px;
+}
+
+.MovieYear{
+ position: relative;
+ top: -60px;
+ left: 234px;
+}
+
+.MovieGenre{
+margin-left: -60px;
+margin: 100px 1px;
+color: bisque;
+}

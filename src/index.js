@@ -1,12 +1,13 @@
 import { createRoot } from "react-dom/client";
 const root = createRoot(document.getElementById("root"));
 
-import Greeting from './MovieCards'
-import { GreetingInfo } from "./MovieCards";
+import TitleName, {MovieCard} from './MovieCards'
+import './index.css'
 
 root.render(
     <>
-    <Greeting/>
-    <GreetingInfo name = "Manthan" city = "Nagpur"/>
+    <TitleName/>
+    <MovieCard title="DEADPOOL" year="( 2016 )" Genre="Action, Adventure , Sci-fi "/>
+    <MovieCard title= "SUPERMAN" year="( 2014 )" Genre="Action, Adventure , Sci-fi , Fantasy"/>
     </>
 );
