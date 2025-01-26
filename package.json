@@ -1,0 +1,11 @@
+{
+    "name": "Movie-Cards",
+    "version": "1.0.0",
+    "description": "This is a Reactjs style component project movie creating Movie cards",
+    "main": "index.js",
+    "scripts": {
+        "start": "react-script start"
+    },
+    "dependencies": {},
+    "browserlists":{}
+}
