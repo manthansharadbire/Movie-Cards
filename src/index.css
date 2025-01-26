@@ -6,7 +6,6 @@
 .CardsContainer{
     display: inline-block;
     margin: 1px 12px;
-    
 }
 
 .Cards{
@@ -33,10 +32,22 @@
 .MovieGenre{
 margin-left: -60px;
 margin-block-start:1px;
-
 }
 
 .MovieInfo{
     font-size: 18px;
-    
+}
+
+.btn{
+    height: fit-content;
+    width:fit-content;
+    padding: 10px 20px;
+    border:1px solid rgb(245, 242, 242) ;
+    margin-top: 30px;
+    color: #fff;
+    background-color: gray;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: gray;
 }
